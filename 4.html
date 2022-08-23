@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input tags</title>
+</head>
+
+<body>
+    <form action="">
+        <!-- action means that where you want you form to got submitted or where the data of form should get submitted -->
+        <label for="name1">First Name: </label>
+        <input type="text" name="myFirst" id="name1" placeholder="First Name" required><br><br>
+        <label for="name2">Last Name: </label>
+        <input type="text" name="myLast" id="name2" placeholder="Last Name" required><br><br>
+        <label for="number">Age: </label>
+        <input type="number" name="myage" id="number" required><br><br>
+        <label for="email">Email: </label>
+        <input type="email" name="myemail" id="email" required><br><br>
+        <label for="password">Password: </label>
+        <input type="password" name="mypassword" id="password" required><br><br>
+        <label for="color">Color: </label>
+        <input type="color" name="mycolor" id="color" required><br><br>
+        <label for="file">File: </label>
+        <input type="file" name="myfile" id="file" required><br><br>
+        <label for="check">Are you above 18? </label>
+        <input type="checkbox" name="mycheck" id="check" checked required><br><br>
+        <label for="date">Date </label>
+        <input type="date" name="mydate" id="date" required><br><br>
+        <label for="gender">Gender: </label>
+        Male<input type="radio" name="mygender" id="gender">
+        Female<input type="radio" name="mygender" id="gender"><br><br>
+        Write about yourself:<br><textarea name="myarea" cols="90" rows="30"></textarea><br><br>
+        <label for="car">Car</label>
+        <select name="mycar" id="car">
+            <option value="Verna">Verna</option>
+            <option value="City" selected>City</option>
+            <option value="Creta">Creta</option>
+        </select><br><br>
+        <input type="reset" value="Reset"><br><br>
+        <input type="submit" value="Submit"><br><br>
+
+    </form>
+</body>
+
+</html>

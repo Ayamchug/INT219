@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts in CSS</title>
+
+    <style>
+        p {
+            font-family: 'Courier New', Courier, monospace;
+            font-style: italic;
+            font-weight: bold;
+            line-height: 60px;
+            /* Gap between last top line and that text line */
+            font-size: 20px;
+            /* By default, size of text inside <p> tag is 16px=1em */
+            font-variant: small-caps;
+            /* It will convert lowercase into uppercase in size of lowercase */
+        }
+
+        h2 {
+            font: italic small-caps bold 50px/10px Georgia, serif
+                /* font: font-style font-variant font-weight font-style/line-height font-family */
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h2>This is font tutorial</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea tempore praesentium illo asperiores obcaecati error
+        voluptate quasi quaerat dicta quia!</p>
+
+</body>
+
+</html>
